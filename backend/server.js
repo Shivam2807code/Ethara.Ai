@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://ethara-ai-otwy.vercel.app"
+    "https://ethara-ai-pearl.vercel.app/"
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
   allowedHeaders: ["Content-Type", "Authorization"],
