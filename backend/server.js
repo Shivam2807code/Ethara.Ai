@@ -23,6 +23,8 @@ app.use(cors({
     "http://localhost:5173",
     "https://ethara-ai-otwy.vercel.app"
   ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
+  allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
 }));
 app.use(express.json());
